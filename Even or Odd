@@ -1,0 +1,21 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int n = get_int("Number: ");
+
+    // if n is even | == equality opporator
+    if  (n % 2 == 0)
+    {
+        printf("Even\n");
+    }
+    //Else if n is odd
+    else
+    {
+        printf("Odd\n");
+    }
+}
+// The parity of an integer is its attribute of being even or odd.
+// Thus, it can be said that 6 and 14 have the same parity (since
+// both are even), whereas 7 and 12 have opposite parity
